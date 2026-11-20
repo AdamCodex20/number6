@@ -1,0 +1,28 @@
+/* Chromelite Technologies Limited - shared styles */
+body { margin: 0; font-family: Arial, sans-serif; color: #222; background: #f5f7fa; }
+
+header { background: #fff; padding: 10px 20px; }
+
+nav { background: #003153; }
+nav a { display: inline-block; padding: 14px 20px; color: #fff; text-decoration: none; font-weight: bold; }
+nav a:hover { color: #FF6600; }
+
+main { padding: 20px; text-align: center; }
+h1, h2 { color: #003153; }
+h2 { border-bottom: 3px solid #FF6600; display: inline-block; padding-bottom: 5px; }
+
+/* Product cards in a row */
+.card { display: inline-block; vertical-align: top; width: 28%; margin: 10px; padding: 15px;
+        background: #fff; border-top: 5px solid #FF6600; text-align: left; }
+.card h3 { color: #003153; margin-top: 0; }
+
+/* Pricing table */
+table { width: 95%; margin: 0 auto; border-collapse: collapse; background: #fff; }
+th, td { border: 1px solid #ccc; padding: 8px; }
+th { background: #003153; color: #fff; }
+td.num, tfoot td { text-align: right; }
+tfoot td { font-weight: bold; background: #eee; }
+tfoot tr:last-child td { background: #FF6600; color: #fff; }
+
+footer { background: #003153; color: #fff; text-align: center; padding: 15px; margin-top: 30px; }
+footer p { margin: 4px 0; }
